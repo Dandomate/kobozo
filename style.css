@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(236, 167, 122);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(148, 75, 33);
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgb(148, 75, 33);
+    color: white;
+}
+
+#szamolas {
+    text-align: center;
+}
+
+p {
+    font-size: smaller;
+}
